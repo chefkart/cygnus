@@ -23,7 +23,7 @@
     "image": {
       "type": "media",
       "multiple": false,
-      "required": true,
+      "required": false,
       "allowedTypes": [
         "images"
       ]
@@ -32,6 +32,11 @@
       "type": "component",
       "repeatable": true,
       "component": "content.heading"
+    },
+    "slider": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.colored-slider"
     }
   }
 }

@@ -42,22 +42,23 @@
       "component": "testimonials.testimonial-card",
       "required": true
     },
-    "join_us": {
-      "type": "component",
-      "repeatable": false,
-      "component": "content.heading-description",
-      "required": true
-    },
-    "FAQ": {
-      "type": "component",
-      "repeatable": false,
-      "component": "container.faq",
-      "required": true
-    },
     "Apply": {
       "type": "component",
       "repeatable": false,
       "component": "container.apply-here"
+    },
+    "join_us_heading": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.heading"
+    },
+    "description": {
+      "type": "text"
+    },
+    "FAQ": {
+      "type": "component",
+      "repeatable": false,
+      "component": "container.faq"
     }
   }
 }

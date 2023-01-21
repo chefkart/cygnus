@@ -53,6 +53,11 @@
       "repeatable": false,
       "component": "container.faq",
       "required": true
+    },
+    "Apply": {
+      "type": "component",
+      "repeatable": false,
+      "component": "container.apply-here"
     }
   }
 }

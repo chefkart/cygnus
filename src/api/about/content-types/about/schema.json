@@ -16,13 +16,6 @@
       "type": "string",
       "required": true
     },
-    "heading": {
-      "type": "string",
-      "required": true
-    },
-    "heading_colored": {
-      "type": "string"
-    },
     "description": {
       "type": "text",
       "required": false
@@ -81,11 +74,12 @@
       ]
     },
     "form_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "social_heading": {
       "type": "string",
@@ -95,6 +89,11 @@
       "type": "component",
       "repeatable": true,
       "component": "icon-content.icon-url"
+    },
+    "heading": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.heading"
     }
   }
 }

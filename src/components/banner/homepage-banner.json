@@ -20,12 +20,12 @@
       "component": "button.button",
       "required": true
     },
-    "image": {
+    "video": {
       "type": "media",
       "multiple": false,
       "required": false,
       "allowedTypes": [
-        "images"
+        "videos"
       ]
     },
     "subheading": {

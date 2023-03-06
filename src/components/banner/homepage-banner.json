@@ -14,12 +14,6 @@
     "badge": {
       "type": "string"
     },
-    "button": {
-      "type": "component",
-      "repeatable": false,
-      "component": "button.button",
-      "required": true
-    },
     "subheading": {
       "type": "component",
       "repeatable": true,
@@ -32,6 +26,19 @@
       "allowedTypes": [
         "images"
       ]
+    },
+    "mobile_banner_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "CTA": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.links"
     }
   }
 }
